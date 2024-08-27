@@ -17,6 +17,7 @@ Shoop is a modern e-commerce application that allows users to browse, purchase, 
 To run the frontend of the application:
 1. Navigate to the frontend directory.
 2. Install the dependencies by running: npm install
+3. npm run dev
 
 ### Backend
 To run the backend of the application:
