@@ -1,0 +1,28 @@
+.genderholder {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.genderselect input {
+    margin: 0 8px 0 0;
+    accent-color: #7427F5;
+}
+
+.genderselect label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #787878;
+}
+
+.signupdivider {
+    width: 128px;
+    border: 1px solid #7427F5;
+}
+
+.errormsg {
+    color: #D44222;
+    text-align: center;
+    font-size: 12px;
+}

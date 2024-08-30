@@ -1,0 +1,23 @@
+.profilepageholder {
+    position: fixed;
+    top: 55px;
+    right: 30px;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid #EBEBEB;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.5);
+}
+
+.poptions {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.plogout {
+    font-size: 16px;
+    font-weight: 600;
+    color: #D44222;
+}

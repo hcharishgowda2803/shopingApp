@@ -1,0 +1,192 @@
+.cartexplore {
+    margin: 0;
+    padding: 30px 30px 0 30px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #7427F5;
+}
+
+.cartproductsholder {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.cartproductholder {
+    margin: 30px;
+    width: 512px;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid #EBEBEB;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.14);
+    display: flex;
+}
+
+.cartproductimageholder {
+    width: 50%;
+    height: 100%;
+}
+
+.cartproductimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cartproductcontent {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.cartbrandrating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartbrand {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cartrating {
+    display: flex;
+    align-items: center;
+}
+
+.cartstar {
+    white-space: nowrap;
+    color: transparent;
+    text-shadow: 0 0 0 #42A606;
+    font-size: 14px;
+}
+
+.cartname {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cartdescription {
+    font-size: 14px;
+    font-weight: 500;
+    color: #787878;
+}
+
+.cartpriceholder {
+    display: flex;
+    gap: 10px;
+}
+
+.cartscratchprice {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: #787878;
+}
+
+.cartprice {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cartcolorsize {
+    display: flex;
+    gap: 10px;
+}
+
+.cartcolor, .cartsize {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.alladdressholder {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 128px;
+}
+
+.addrradiobtn {
+    display: none;
+}
+
+.addressholder {
+    margin: 30px;
+    width: 312px;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid #EBEBEB;
+    padding: 15px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.14);
+}
+
+.addrradiobtn:checked + .addressholder {
+    outline: 2px solid #7427F5;
+}
+
+.addressname {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.addressfull {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.addrbtnholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.newaddrbtn {
+    border: none;
+    border: 1px dashed #7427F5;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 12px;
+    color: #7427F5;
+}
+
+.cartfooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px -4px 9px rgba(0, 0, 0, 0.30);
+}
+
+.total {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.placebtn {
+    border: none;
+    background-color: #7427F5;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 12px;
+    color: white;
+}
