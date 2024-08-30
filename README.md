@@ -12,6 +12,7 @@ Shoop is a modern e-commerce application that allows users to browse, purchase, 
 - **Purchase Items**: Users can browse the catalog and purchase items.
 
 ## Running the Application
+Clone the project from master branch
 
 ### Frontend
 To run the frontend of the application:
